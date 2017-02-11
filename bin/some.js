@@ -7,4 +7,5 @@ let workingArray = examples.numbers.whole;
 
 let result = some(workingArray, (e /*, i, a */) => e > 0);
 
+console.log('some input', workingArray);
 console.log('some result', result);
